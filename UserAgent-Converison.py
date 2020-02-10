@@ -11,10 +11,10 @@ from pandas import ExcelWriter
 from pandas import ExcelFile
 
 #%% Update with your own parameters
-filename = '20200210-Unsuccessful-Payments.xlsx'     # File to read
-ColumnToRead = 'User Agent'                          # Column to Read
-YOUR_ACCESS_KEY = '15411849927d19358edcdaa2e34a07d4' # Sign up for API key on https://userstack.com/
-fileToCreate = 'Browser_Results_From_UserAgents.xlsx'# Name of file to be created
+filename = 'FileToBeRead.xlsx'     # File to read
+ColumnToRead = 'ColumnContaining_UserAgents'                          # Column to Read
+YOUR_ACCESS_KEY = 'INSERT_KEY_OBTAINED_FROM_ABOVE' # Sign up for API key on https://userstack.com/
+fileToCreate = 'FileToBeCreated.xlsx'# Name of file to be created
  
 #%% Function to find OS and Browser of an user agent
 def ExploreUserAgent (User_Agent, YOUR_ACCESS_KEY):
