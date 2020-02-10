@@ -2,10 +2,12 @@
 Reads Excel file which contain User Agents and finds the Browser and OS Associated with them in a new Excel file
 
 # 1) Install Dependencies (if needed)
-	pandas,
-	requests
+Two dependencies are needed: pandas, requests.	
+Or install using requirements.txt
+
 # 2) Sign up and obtain the API key
-API used is from https://userstack.com/. A free key can be obtained by signing up to the free plan
+API used is from https://userstack.com/. 	
+A free key can be obtained by signing up to the free plan
 
 # 3) Modify the following parameters inside 'UserAgent-Converison.py'
 filename = 'FileToBeRead.xlsx'    
