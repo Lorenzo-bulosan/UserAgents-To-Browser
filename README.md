@@ -9,7 +9,7 @@ Or install using requirements.txt
 API used is from https://userstack.com/. 	
 A free key can be obtained by signing up to the free plan
 
-# 3) Modify the following parameters inside 'UserAgent-Converison.py'
+# 3) Modify parameters inside 'UserAgent-Converison.py'
 filename = 'FileToBeRead.xlsx'    
 ColumnToRead = 'ColumnContaining_UserAgents'   
 fileToCreate = 'FileToBeCreated.xlsx'	
