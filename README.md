@@ -12,7 +12,8 @@ A free key can be obtained by signing up to the free plan
 # 3) Modify parameters inside 'UserAgent-Converison.py'
 filename = 'FileToBeRead.xlsx',    
 ColumnToRead = 'ColumnContaining_UserAgents',   
-fileToCreate = 'FileToBeCreated.xlsx',  	
+fileToCreate = 'FileToBeCreated.xlsx',  
+
 YOUR_ACCESS_KEY = 'INSERT_KEY_OBTAINED_FROM_ABOVE' # Sign up for API key on https://userstack.com/	
 
 # Expected Output 
